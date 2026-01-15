@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Facts App Clip</title>
+    <meta name="apple-itunes-app" content="app-clip-bundle-id=tokyofish.AppClipTest.Clip">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #fff5e6 0%, #ffe0b3 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 400px;
+        }
+        .cat-emoji {
+            font-size: 80px;
+            animation: bounce 1s ease-in-out infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        h1 {
+            color: #ff8c00;
+            margin: 20px 0 10px;
+            font-size: 28px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .app-clip-button {
+            display: inline-block;
+            background: #ff8c00;
+            color: white;
+            padding: 16px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .app-clip-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 140, 0, 0.4);
+        }
+        .note {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cat-emoji">🐱</div>
+        <h1>Cat Facts</h1>
+        <p>Discover fun and fascinating facts about cats! Open this page on your iPhone to launch the App Clip instantly.</p>
+        <a href="https://atlanticwaters.github.io/AppClipTest/catfacts" class="app-clip-button">
+            Open App Clip
+        </a>
+        <p class="note">Requires iOS 14+ with App Clip support</p>
+    </div>
+</body>
+</html>

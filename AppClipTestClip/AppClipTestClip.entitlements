@@ -6,5 +6,9 @@
     <array>
         <string>$(AppIdentifierPrefix)tokyofish.AppClipTest</string>
     </array>
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <string>appclips:atlanticwaters.github.io</string>
+    </array>
 </dict>
 </plist>
