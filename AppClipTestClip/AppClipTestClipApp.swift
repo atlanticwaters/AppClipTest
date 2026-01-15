@@ -6,27 +6,17 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct AppClipTestClipApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { activity in
+                    guard let incomingURL = activity.webpageURL else { return }
+                    // Handle invocation URL if needed
+                    print("App Clip invoked with URL: \(incomingURL)")
+                }
         }
-        .modelContainer(sharedModelContainer)
     }
 }

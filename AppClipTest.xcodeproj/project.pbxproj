@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AD9AFD772F187ED900F3296A /* AppClipTestClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = AD9AFD532F187ED800F3296A /* AppClipTestClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AD9AFD332F187E8500F3296A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +25,61 @@
 			remoteGlobalIDString = AD9AFD222F187E8400F3296A;
 			remoteInfo = AppClipTest;
 		};
+		AD9AFD642F187ED900F3296A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9AFD1B2F187E8400F3296A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9AFD522F187ED800F3296A;
+			remoteInfo = AppClipTestClip;
+		};
+		AD9AFD6E2F187ED900F3296A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9AFD1B2F187E8400F3296A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9AFD522F187ED800F3296A;
+			remoteInfo = AppClipTestClip;
+		};
+		AD9AFD752F187ED900F3296A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD9AFD1B2F187E8400F3296A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD9AFD522F187ED800F3296A;
+			remoteInfo = AppClipTestClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD9AFD7C2F187ED900F3296A /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				AD9AFD772F187ED900F3296A /* AppClipTestClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AD9AFD232F187E8400F3296A /* AppClipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9AFD322F187E8500F3296A /* AppClipTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9AFD3C2F187E8500F3296A /* AppClipTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9AFD532F187ED800F3296A /* AppClipTestClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipTestClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9AFD632F187ED900F3296A /* AppClipTestClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipTestClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9AFD6D2F187ED900F3296A /* AppClipTestClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppClipTestClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AD9AFD782F187ED900F3296A /* Exceptions for "AppClipTestClip" folder in "AppClipTestClip" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AD9AFD522F187ED800F3296A /* AppClipTestClip */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AD9AFD252F187E8400F3296A /* AppClipTest */ = {
@@ -43,6 +95,24 @@
 		AD9AFD3F2F187E8500F3296A /* AppClipTestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AppClipTestUITests;
+			sourceTree = "<group>";
+		};
+		AD9AFD542F187ED800F3296A /* AppClipTestClip */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AD9AFD782F187ED900F3296A /* Exceptions for "AppClipTestClip" folder in "AppClipTestClip" target */,
+			);
+			path = AppClipTestClip;
+			sourceTree = "<group>";
+		};
+		AD9AFD662F187ED900F3296A /* AppClipTestClipTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppClipTestClipTests;
+			sourceTree = "<group>";
+		};
+		AD9AFD702F187ED900F3296A /* AppClipTestClipUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppClipTestClipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +139,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD9AFD502F187ED800F3296A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD602F187ED900F3296A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD6A2F187ED900F3296A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +169,9 @@
 				AD9AFD252F187E8400F3296A /* AppClipTest */,
 				AD9AFD352F187E8500F3296A /* AppClipTestTests */,
 				AD9AFD3F2F187E8500F3296A /* AppClipTestUITests */,
+				AD9AFD542F187ED800F3296A /* AppClipTestClip */,
+				AD9AFD662F187ED900F3296A /* AppClipTestClipTests */,
+				AD9AFD702F187ED900F3296A /* AppClipTestClipUITests */,
 				AD9AFD242F187E8400F3296A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +182,9 @@
 				AD9AFD232F187E8400F3296A /* AppClipTest.app */,
 				AD9AFD322F187E8500F3296A /* AppClipTestTests.xctest */,
 				AD9AFD3C2F187E8500F3296A /* AppClipTestUITests.xctest */,
+				AD9AFD532F187ED800F3296A /* AppClipTestClip.app */,
+				AD9AFD632F187ED900F3296A /* AppClipTestClipTests.xctest */,
+				AD9AFD6D2F187ED900F3296A /* AppClipTestClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +199,12 @@
 				AD9AFD1F2F187E8400F3296A /* Sources */,
 				AD9AFD202F187E8400F3296A /* Frameworks */,
 				AD9AFD212F187E8400F3296A /* Resources */,
+				AD9AFD7C2F187ED900F3296A /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AD9AFD762F187ED900F3296A /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AD9AFD252F187E8400F3296A /* AppClipTest */,
@@ -163,6 +262,74 @@
 			productReference = AD9AFD3C2F187E8500F3296A /* AppClipTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AD9AFD522F187ED800F3296A /* AppClipTestClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9AFD792F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClip" */;
+			buildPhases = (
+				AD9AFD4F2F187ED800F3296A /* Sources */,
+				AD9AFD502F187ED800F3296A /* Frameworks */,
+				AD9AFD512F187ED800F3296A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AD9AFD542F187ED800F3296A /* AppClipTestClip */,
+			);
+			name = AppClipTestClip;
+			packageProductDependencies = (
+			);
+			productName = AppClipTestClip;
+			productReference = AD9AFD532F187ED800F3296A /* AppClipTestClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		AD9AFD622F187ED900F3296A /* AppClipTestClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9AFD7D2F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClipTests" */;
+			buildPhases = (
+				AD9AFD5F2F187ED900F3296A /* Sources */,
+				AD9AFD602F187ED900F3296A /* Frameworks */,
+				AD9AFD612F187ED900F3296A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9AFD652F187ED900F3296A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD9AFD662F187ED900F3296A /* AppClipTestClipTests */,
+			);
+			name = AppClipTestClipTests;
+			packageProductDependencies = (
+			);
+			productName = AppClipTestClipTests;
+			productReference = AD9AFD632F187ED900F3296A /* AppClipTestClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD9AFD6C2F187ED900F3296A /* AppClipTestClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9AFD802F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClipUITests" */;
+			buildPhases = (
+				AD9AFD692F187ED900F3296A /* Sources */,
+				AD9AFD6A2F187ED900F3296A /* Frameworks */,
+				AD9AFD6B2F187ED900F3296A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD9AFD6F2F187ED900F3296A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AD9AFD702F187ED900F3296A /* AppClipTestClipUITests */,
+			);
+			name = AppClipTestClipUITests;
+			packageProductDependencies = (
+			);
+			productName = AppClipTestClipUITests;
+			productReference = AD9AFD6D2F187ED900F3296A /* AppClipTestClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +351,17 @@
 						CreatedOnToolsVersion = 26.1;
 						TestTargetID = AD9AFD222F187E8400F3296A;
 					};
+					AD9AFD522F187ED800F3296A = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					AD9AFD622F187ED900F3296A = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = AD9AFD522F187ED800F3296A;
+					};
+					AD9AFD6C2F187ED900F3296A = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = AD9AFD522F187ED800F3296A;
+					};
 				};
 			};
 			buildConfigurationList = AD9AFD1E2F187E8400F3296A /* Build configuration list for PBXProject "AppClipTest" */;
@@ -203,6 +381,9 @@
 				AD9AFD222F187E8400F3296A /* AppClipTest */,
 				AD9AFD312F187E8500F3296A /* AppClipTestTests */,
 				AD9AFD3B2F187E8500F3296A /* AppClipTestUITests */,
+				AD9AFD522F187ED800F3296A /* AppClipTestClip */,
+				AD9AFD622F187ED900F3296A /* AppClipTestClipTests */,
+				AD9AFD6C2F187ED900F3296A /* AppClipTestClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +404,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AD9AFD3A2F187E8500F3296A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD512F187ED800F3296A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD612F187ED900F3296A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD6B2F187ED900F3296A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +455,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AD9AFD4F2F187ED800F3296A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD5F2F187ED900F3296A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9AFD692F187ED900F3296A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +488,21 @@
 			isa = PBXTargetDependency;
 			target = AD9AFD222F187E8400F3296A /* AppClipTest */;
 			targetProxy = AD9AFD3D2F187E8500F3296A /* PBXContainerItemProxy */;
+		};
+		AD9AFD652F187ED900F3296A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9AFD522F187ED800F3296A /* AppClipTestClip */;
+			targetProxy = AD9AFD642F187ED900F3296A /* PBXContainerItemProxy */;
+		};
+		AD9AFD6F2F187ED900F3296A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9AFD522F187ED800F3296A /* AppClipTestClip */;
+			targetProxy = AD9AFD6E2F187ED900F3296A /* PBXContainerItemProxy */;
+		};
+		AD9AFD762F187ED900F3296A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD9AFD522F187ED800F3296A /* AppClipTestClip */;
+			targetProxy = AD9AFD752F187ED900F3296A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -538,6 +776,160 @@
 			};
 			name = Release;
 		};
+		AD9AFD7A2F187ED900F3296A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipTestClip/AppClipTestClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipTestClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9AFD7B2F187ED900F3296A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AppClipTestClip/AppClipTestClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppClipTestClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipTest;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD9AFD7E2F187ED900F3296A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.AppClipTestClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppClipTestClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppClipTestClip";
+			};
+			name = Debug;
+		};
+		AD9AFD7F2F187ED900F3296A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.AppClipTestClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppClipTestClip.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppClipTestClip";
+			};
+			name = Release;
+		};
+		AD9AFD812F187ED900F3296A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.AppClipTestClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppClipTestClip;
+			};
+			name = Debug;
+		};
+		AD9AFD822F187ED900F3296A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW75HBGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyofish.AppClipTest.AppClipTestClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppClipTestClip;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,6 +965,33 @@
 			buildConfigurations = (
 				AD9AFD4D2F187E8500F3296A /* Debug */,
 				AD9AFD4E2F187E8500F3296A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9AFD792F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9AFD7A2F187ED900F3296A /* Debug */,
+				AD9AFD7B2F187ED900F3296A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9AFD7D2F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9AFD7E2F187ED900F3296A /* Debug */,
+				AD9AFD7F2F187ED900F3296A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9AFD802F187ED900F3296A /* Build configuration list for PBXNativeTarget "AppClipTestClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9AFD812F187ED900F3296A /* Debug */,
+				AD9AFD822F187ED900F3296A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
